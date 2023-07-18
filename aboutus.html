@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Generator - About Us</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<style>
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #000000, white);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar .logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar .nav-items {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-items li {
+  margin-left: 15px;
+}
+
+.navbar .nav-items li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-box {
+  display: flex;
+}
+
+.search-box input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-box button {
+  padding: 5px 10px;
+  background-color: #666;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+
+@media (max-width: 768px) {
+  .navbar .nav-items {
+    display: none;
+  }
+
+  .navbar .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navbar.responsive .nav-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar.responsive .nav-items li {
+    margin: 5px 0;
+  }
+}
+.about-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.about-section h2 {
+  margin-top: 0;
+}
+
+.about-section h3 {
+  margin-top: 20px;
+}
+
+.about-section p {
+  line-height: 1.5;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+</style>
+<body>
+    <nav>
+        <div class="navbar">
+          <img src="img/logo1.png" style="width: 80px; height: 40px;"> 
+          <div class="name" style="font-family: Arial, sans-serif;
+          font-size: 24px;">BG Generator</div>
+          <div class="menu-icon">
+            <span class="icon"></span>
+          </div>
+          <ul class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="Login.html">Login</a></li>
+          </ul>
+          <div class="search-box">
+            <input type="text" placeholder="Search">
+            <button type="submit">Search</button>
+          </div>
+        </div>
+      </nav>
+  <section class="about-section">
+    <h2>About Us</h2>
+    <p>Welcome to Background Generator, your one-stop solution for creating stunning backgrounds for your websites, presentations, or any other creative projects. Our powerful tool allows you to generate beautiful gradient backgrounds effortlessly.</p>
+
+    <h3>Our Mission</h3>
+    <p>At Background Generator, our mission is to provide a user-friendly and intuitive platform that empowers individuals and businesses to create visually appealing backgrounds without any technical knowledge.</p>
+
+    <h3>How It Works</h3>
+    <p>Using our generator is simple. Just select two colors, adjust the gradient direction and angle, and click the "Generate" button. You'll instantly get a CSS code snippet that you can copy and use in your projects.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Background Generator. All rights reserved. | <a href="#">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>
